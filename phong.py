@@ -68,16 +68,17 @@ def phong(name, lamb, Kd, Ks, Ii, Iamb, n, rad, scr_dist, camera, light):
     im.save(name)
 
 # Gerando as imagens
-Kd = [0.163849765,0.508920188,0.827230047]
-Ks = 0.9
+Kd = [0.103849765,0.708920188,0.627230047]
+Ks = 0.8
 Ii = [255,255,255]
 Iamb = [40,00,40]
 n = 50
-rad = 500
-scr_dist = 550
-camera = [0,0,600]
+rad = 700
+scr_dist = 800
+camera = [0,0,900]
 
-phong("image1.png", 0, Kd, Ks, Ii, Iamb, n, rad, scr_dist, camera, [0,700,900])
-phong("image2.png", 1, Kd, Ks, Ii, Iamb, n, rad, scr_dist, camera, [0,0,-700])
-phong("image3.png", 1, Kd, Ks, Ii, Iamb, n, rad, scr_dist, camera, [0,-700,1000])
-phong("image4.png", 1, Kd, Ks, Ii, Iamb, n, rad, scr_dist, camera, [700,800,900])
+phong("image1.png", 0, Kd, Ks, Ii, Iamb, n, rad, scr_dist, camera, [0,1000,1100])
+phong("image2.png", 1, Kd, Ks, Ii, Iamb, n, rad, scr_dist, camera, [500,500,900])
+phong("image3.png", 1, Kd, Ks, Ii, Iamb, n, rad, scr_dist, camera, [1100,-1200,1000])
+phong("image4.png", 1, Kd, Ks, Ii, Iamb, n, rad, scr_dist, camera, [-1100,0,1100])
+
