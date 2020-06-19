@@ -71,7 +71,7 @@ def phong(name, lamb, Kd, Ks, Ii, Iamb, n, rad, scr_dist, camera, light):
 Kd = [0.103849765,0.708920188,0.627230047]
 Ks = 0.8
 Ii = [255,255,255]
-Iamb = [40,00,40]
+Iamb = [40,0,40]
 n = 50
 rad = 700
 scr_dist = 800
